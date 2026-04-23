@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Git ignore file for Evans Manga Portfolio
 
 # OS files
@@ -35,3 +36,42 @@ logs/
 # Temporary files
 temp/
 tmp/
+=======
+# Git ignore file for Evans Manga Portfolio
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Node modules (if using any build tools)
+node_modules/
+package-lock.json
+
+# Build/dist folders
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+>>>>>>> 8ee3f0bbda2a9b70565483934cd058c357201f12
